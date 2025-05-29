@@ -1,97 +1,76 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# F1 drivers data table on React-Native
 
-# Getting Started
+## Used technologies
+1. React-Native
+2. TypeScript
+3. React-Native/navigation
+5. Redux
+6. Redux-thunk (fetch fncs made with createAsyncThunk)
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+## App functionlality
+1. Home page shows all f1 drivers from api
+2. Driver list is controlling by pagination
+3. After clicking on Driver Card user will be moved to Details Page
+4. Details page shows all races of the selected driver
+5. Races list is also controling by pagination
 
-## Step 1: Start Metro
+## How to start app
 
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
+# T-Shirt Catalog with ReactJS
 
-To start the Metro dev server, run the following command from the root of your React Native project:
+## Used technologies
+1. React.JS
+2. TypeScript
+3. React-Router
+4. Vite
+5. Zustand
+6. Tanstack/React-query
+7. Tailwind CSS + clsx
 
-```sh
-# Using npm
-npm start
+## App functionlality
+1. Catalog page shows all Items we colud buy
+2. Details of the an item shows if we click on it
+3. On Details page we can choose between sizes and colors also there is Carousel with images of selected Item
+4. On Details page we can add Item with selected parameters to the cart
+5. Cart page shows all added Items and provides abbolity to remove them from cart
 
-# OR using Yarn
-yarn start
-```
+## How to start app
 
-## Step 2: Build and run your app
+# T-Shirt Catalog with ReactJS
 
-With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
+## Used technologies
+1. React.JS
+2. TypeScript
+3. React-Router
+4. Vite
+5. Zustand
+6. Tanstack/React-query
+7. Tailwind CSS + clsx
 
-### Android
+## App functionlality
+1. Catalog page shows all Items we colud buy
+2. Details of the an item shows if we click on it
+3. On Details page we can choose between sizes and colors also there is Carousel with images of selected Item
+4. On Details page we can add Item with selected parameters to the cart
+5. Cart page shows all added Items and provides abbolity to remove them from cart
 
-```sh
-# Using npm
-npm run android
+## How to start app
 
-# OR using Yarn
-yarn android
-```
+Step 1: Install Android SDK
 
-### iOS
+Step 2: Install NDK pluhin in SDK manager
 
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
+Step 3: Clone this repository  
 
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
+Step 4: Open console in directory of cloned repository
 
-```sh
-bundle install
-```
+Step 5: Write down commands into console
 
-Then, and every time you update your native dependencies, run:
+    $ npm i
+    $ npm start
 
-```sh
-bundle exec pod install
-```
+Step 6: Write down commands into another console
 
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
-
-```sh
-# Using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
-```
-
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
-
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
-
-## Step 3: Modify your app
-
-Now that you have successfully run the app, let's make changes!
-
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
-
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
-
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+    $ npm run android
+    
+Step 7: You will have an access to the App at Android Emulator

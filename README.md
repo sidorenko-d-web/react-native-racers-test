@@ -1,5 +1,8 @@
 # F1 drivers data table on React-Native
 
+## Used Api 
+``http://ergast.com/mrd/methods/drivers``
+
 ## Used technologies
 1. React-Native
 2. TypeScript
